@@ -23,6 +23,6 @@ $pp->requireReCaptcha();
 $pp->getReCaptcha()->initSecretKey('copy-your-secret-key-here');
 
 
-$pp->sendEmailTo('your-email-here'); // ← Your email here
+$pp->sendEmailTo('vitgermim@gmail.com'); // ← Your email here
 
 echo $pp->process($_POST);
